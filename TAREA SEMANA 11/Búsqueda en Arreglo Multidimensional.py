@@ -18,5 +18,3 @@ for fila in range(len(matriz)):
 # Si no se encuentra el elemento
 if encontrado==False:
     print(f"El elemento {elemento_a_buscar} no se encuentra en la lista.")
-
-
