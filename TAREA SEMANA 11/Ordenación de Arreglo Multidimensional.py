@@ -28,6 +28,6 @@ imprimir_matriz(matriz)
 # Ordenamos la segunda fila (índice)
 ordenar_fila(matriz, indice)
 
-# Mostramos la matriz después de ordenar la segunda fila
+# Mostramos la matriz después de ordenar la fila
 print("\nMatriz con la segunda fila ordenada:")
 imprimir_matriz(matriz)
