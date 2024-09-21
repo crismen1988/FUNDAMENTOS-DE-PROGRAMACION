@@ -73,7 +73,7 @@ while respuesta_usuario=="s":
     else:
         print("\n\033[39m"+"\nNo ha dado ningún descuento")
     print("\n\033[39m"+"")
-    respuesta_usuario=input("\nPresione 'S' para generar una nueva venta o Cualquier tecla para salir del sistema de ventas: ")    
+    respuesta_usuario=input("\nPresione 'S' para generar una nueva venta o Cualquier tecla para salir del sistema de ventas: ").lower    
 print("\nHasta Pronto..........")
 
         
