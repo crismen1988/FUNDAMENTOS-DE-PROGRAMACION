@@ -1,4 +1,4 @@
-#Funcion para generar un diccionario con datos preestableciidos
+#Funcion para generar un diccionario con datos preestablecidos
 def informacion():
     print("\033[33m"+"INFORMACION PERSONAL")
     #declaramos el diccionario como global para poder reutilzar en otras funciones
