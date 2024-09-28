@@ -20,13 +20,13 @@ def cambio_ciudad():
     #Ingresamos el nuevo valor a la clave ciudad
     informacion_personal["ciudad"]=nueva_ciudad
     print("Se Agrego la ciudad correctamente")
-#Llamamos a la funcioin
+#Llamamos a la función
 cambio_ciudad()
 
 #Definimos una funcion para agregar y eliminar claves
 def agregar_eliminar_claves():
     informacion_personal["profesión"]="electricista"
-    print("\n\033[92m"+"VERIFICAMOS SI EXIsTE LA CLAVE TELEFONO EN EL DICCIONARIO")
+    print("\n\033[92m"+"VERIFICAMOS SI EXISTE LA CLAVE TELEFONO EN EL DICCIONARIO")
     #claves se utilza para saber que claves existen en el diccionario
     claves=informacion_personal.keys()
     #clave se le dio el nombre de telefono
@@ -50,5 +50,5 @@ def agregar_eliminar_claves():
     for clave,valor in informacion_personal.items():
         print("\033[36m"+"")
         print(f"{clave.capitalize()}: "+"\033[39m"+""+f"{valor.capitalize()}\n")
-        
+#Llamamos a la función       
 agregar_eliminar_claves()
