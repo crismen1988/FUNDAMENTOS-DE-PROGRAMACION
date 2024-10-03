@@ -1,6 +1,6 @@
 #Escritura del Archivo
 with open('my_notes.txt', 'w') as archivo:
-    # Escribimos líneas de notas en el archivo.
+    # Escribimos líneas de notas en el archivo, utilizando "Write".
     archivo.write("La inteligencia artificial mejora la eficiencia,\n")
     archivo.write("automatiza tareas complejas, impulsa la innovación\n")
     archivo.write("y facilita la toma de decisiones basadas en datos \n")
@@ -10,7 +10,7 @@ with open('my_notes.txt', 'w') as archivo:
 
 # Abrimos el archivo en modo de lectura ('r') para leer su contenido.
 with open('my_notes.txt', 'r') as archivo:
-    # Leemos y mostramos el contenido línea por línea utilizando un bucle.
+    # Leemos y mostramos el contenido línea por línea utilizando un bucle, y también "Readline".
     linea = archivo.readline()  # Lee la primera línea
     while linea:
         print(linea.strip())  # Imprime la línea sin el salto de línea final
